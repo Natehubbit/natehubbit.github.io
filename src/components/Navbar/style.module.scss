@@ -1,0 +1,36 @@
+.container {
+  width: -webkit-fill-available;
+  padding: 20px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+  width: 100%;
+  .logo {
+    flex: 10;
+  }
+  .social {
+    flex: 2;
+    display: inline-flex;
+    justify-content: flex-end;
+    a {
+      margin-right: 40px;
+    }
+  }
+  .social-mobile {
+    margin-top: 15px;
+    width: 100%;
+    a {
+      margin-right: 25px;
+    }
+    a img {
+      height: 17px;  
+    }
+  }
+  .br {
+    flex-basis: 100%;
+    width: 0;
+  }
+}

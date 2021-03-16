@@ -1,0 +1,61 @@
+@import '../../styles/variables';
+
+.container {
+  background: url('../../assets/back.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+  .body {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    .menu {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      nav {
+        background-color: $dark-translucent-color;
+        padding: 50px;
+        border-radius: 10px;
+        
+      }
+      nav li {
+        list-style: none;
+        cursor: pointer;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+      nav li a {
+        text-decoration: none;
+        color: $font-color;
+        &:hover {
+          color: $accent-color;
+        }
+      }
+      .icon {
+        margin-right: 15px;
+      }
+    }
+    .stack {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .stack-mobile {
+      width: 100%;
+      display: flex;
+      position: absolute;
+      bottom: 10px;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
