@@ -6,5 +6,12 @@ export default class UtilService {
   static importAll(r:any) {
     return r.keys().map(r);
   }
-  
+  static downloadFile(path:string) {
+    const el = document.createElement('a')
+    el.setAttribute('download','')
+    el.setAttribute('target','_blank')
+    el.href = path
+    el.click()
+    el.remove()
+  }
 }

@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from './style.module.scss'
 import Navbar from '../../components/Navbar'
-import { Airplay, FileText } from 'react-feather'
+import { Airplay, Download } from 'react-feather'
 import cn from 'classnames'
 import stack from '../../assets/stackback2.png'
 import stackBack from '../../assets/stack-mobile2.png'
 import { Link } from 'react-router-dom'
+import UtilService from '../../services/UtilService'
 
 const Home = () => {
   return (
@@ -22,9 +23,9 @@ const Home = () => {
               </h4>
               </Link>
             </li>
-            <li>
+            <li onClick={()=>UtilService.downloadFile('/CV.pdf')}>
               <h4>
-                <FileText className={styles.icon} />
+                <Download className={styles.icon} />
                 My Resume
               </h4>
             </li>
