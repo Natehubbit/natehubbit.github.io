@@ -1,0 +1,42 @@
+.container {
+  background-color: #2D2E32;
+  height: 100vh;
+}
+.container .body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  height: inherit;
+}
+.container .body .img {
+  height: 200px;
+}
+.container .body .goBack {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.container .body .goBack img {
+  margin-right: 25px;
+}
+.container .body .goBack:hover {
+  opacity: 0.5;
+}
+.container .body p {
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+.container .body p a {
+  font-weight: lighter;
+  cursor: pointer;
+}
+.container .body p a:hover {
+  text-decoration: underline;
+}

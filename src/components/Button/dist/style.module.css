@@ -1,0 +1,16 @@
+.container {
+  border: none;
+  background-color: #0098FF;
+  border: 2px solid #0098FF;
+  border-radius: 3px;
+  margin-right: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #fff;
+}
+.container.outline {
+  background-color: transparent;
+  color: #0098FF;
+}

@@ -1,0 +1,51 @@
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.container .body {
+  padding-top: 142px;
+  overflow-x: hidden;
+}
+.container .body .carousel :first-child {
+  text-align: center;
+  background-color: #000;
+}
+.container .body .carousel img {
+  height: 250px;
+}
+.container .body .article {
+  padding: 20px;
+}
+.container .body .article .stack {
+  height: 15px;
+  margin-bottom: 10px;
+  margin-right: 15px;
+}
+.container .body .article .links {
+  display: flex;
+}
+.container .body .article .links .hyperlink {
+  color: #fff;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.container .body .article .links .hyperlink:hover {
+  color: #0098FF;
+  opacity: 1;
+}
+.container .body .article .links .hyperlink .icon {
+  margin-right: 3px;
+}
+
+@media (min-width: 768px) {
+  .body {
+    padding-top: 70px !important;
+  }
+  .body .carousel img {
+    height: 500px !important;
+  }
+}

@@ -1,0 +1,36 @@
+.container {
+  width: -webkit-fill-available;
+  padding: 20px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+  width: 100%;
+}
+.container .logo {
+  flex: 10;
+}
+.container .social {
+  flex: 2;
+  display: inline-flex;
+  justify-content: flex-end;
+}
+.container .social a {
+  margin-right: 40px;
+}
+.container .social-mobile {
+  margin-top: 15px;
+  width: 100%;
+}
+.container .social-mobile a {
+  margin-right: 25px;
+}
+.container .social-mobile a img {
+  height: 17px;
+}
+.container .br {
+  flex-basis: 100%;
+  width: 0;
+}
