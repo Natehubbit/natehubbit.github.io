@@ -3,7 +3,6 @@ import cn from 'classnames'
 import projectImg from '../../assets/back.webp'
 import Button from '../Button'
 import styles from './style.module.scss'
-import { Link } from 'react-router-dom'
 
 interface IProjectCard {
   imageUrl: string;

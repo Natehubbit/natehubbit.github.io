@@ -10,7 +10,6 @@ import firebase from '../assets/firebase.svg'
 import nodejs from '../assets/nodejs.svg'
 import solidity from '../assets/solidity.svg'
 import ts from '../assets/ts.svg'
-import dash1 from '../assets/flinchDash/dash1.png'
 import UtilService from '../services/UtilService'
 
 const gh = UtilService
